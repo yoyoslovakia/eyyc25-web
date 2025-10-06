@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --text-color: #eaf6ff;
+  --bg-color: #121212;
+  --link-color: #66c5ff;
+  --link-hover-color: #aaddff;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Ubuntu mono', Arial, sans-serif;
+  font-weight: 300;
+  padding-top: 24px;
+  padding-bottom: 128px;
+}
+main {
+  margin: 32px;
+}
+strong {
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+a:hover {
+  color: var(--link-hover-color);
+}
+li {
+  line-height: 20px;
+}
+.title-logo {
+  width: 50%;
+  min-height: 72px;
+}
+.section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.header {
+  padding: 48px 0 0;
+  text-align: center;
+}
+.link-container {
+  margin: 48px 0;
+  white-space: nowrap;
+}
+.reg-link {
+  background: #1e3a5c;
+  color: #66c5ff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 24px;
+  transition: background 0.3s, color 0.3s;
+  margin: 16px;
+}
+.reg-link:hover {
+  background: #244770;
+  color: white;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #121212;
+  width: 100%;
+  text-align: center;
+  padding: 24px 0;
+}
+.footer-title {
+  font-family: Arial;
+  font-size: 10px;
+  opacity: 0.3;
+}
+
+.socials {
+  margin-top: 12px;
+}
+.note {
+  font-size: 14px;
+  opacity: 0.6;
+  font-style: italic;
+}
